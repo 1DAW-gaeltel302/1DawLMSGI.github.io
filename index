@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Indice General.</title>
+ 		<style>
+	h1 {font-family:Calibri;}
+ 	.ambar {background-color: #ffd557; text-align: left}
+	.verdoso {background-color: #00bb20; text-align: left}
+   
+	</style>
+
+
+</head class="verdoso">
+<div class="ambar">
+<body style="text-align: center;">
+<h1>INDICE.</h1>
+<p><a href="tarea1-GaelTellezDiaz/index.html">CSS.</a></p>
+</div>
+
+</body>
+</html>
