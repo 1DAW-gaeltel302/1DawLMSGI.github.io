@@ -24,7 +24,8 @@ h1{
 </head>
 
 <body>
-<h1>unidad 2, tarea 10, Aplicando CSS con la etiqueta.</h1>
+<h1>unidad 2, tarea 10.</h1>
+<p><br>Aplicando CSS con la etiqueta.</p>
 	<table border="1" ; align = "center">
 		<caption><b>tabla simple</b></caption>
 		<tr> 
