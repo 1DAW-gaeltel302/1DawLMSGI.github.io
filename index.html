@@ -4,23 +4,89 @@
 	<meta charset="utf-8" />
 	<title>Indice General.</title>
  		<style>
-	h1 {font-family:Calibri;}
- 	.ambar {background-color: #ffd557; text-align: left}
-	.verdoso {background-color: #00bb20; text-align: left}
-   
+			h1 {font-family:Calibri;}
+            		#indiceUno li{
+				background-color: #66AAFF;
+				font-family: "Comic Sans MS", "Comic Sans", cursive;
+				color:red;
+			}
+			#indiceUno li a:hover {
+				background-color: #0071ff;
+			}
+			#indiceDos li a{
+				background-color: #b5ff62;
+				font-family: "Lucida Console", Monaco, monospace;
+			}
+			#indiceDos li a:hover {
+				background-color: #87ff00;
+			}
+			ul {
+			}
+			#indiceUno ul{
+				position: fixed;
+				top: 0;
+				width: 100%;
+				overflow: hidden;
+
+			}
+			#indiceDos ul {
+				width: 200px;
+                		height: 70px;
+			}
+            		li{
+            			display: inline;
+				list-style-type: none;
+				/*display inline es para que no se tenga que que hacer "height" y list-style-type: none es para que no se ponga la notacion de las listas*/
+            		}
+            		li a{
+            			margin: 0;
+				padding: 0;
+				border: 1px solid #555;
+            			display: block;
+                		text-align: center;
+                		text-decoration: none;
+				/*margin es el margen desde la pagina, padding es el espacio entre elementos, border es la delineacion del padding y margin, display:block hace que este eb bloques, text-align: center hace que el texto este en el centro de el bloque, text-decoration:none hace que no halla decoraciones de texto como el underline que suele salir en los enlaces.*/
+
+			}
+			#indiceDos li a {
+            			border-bottom: none;
+				width: 120px;
+			}
+			#indiceDos li {
+				text-align: center;
+			}
+			#indiceDos li a:last-child {
+                		border-bottom: 1px solid #555;
+			}
+			#indiceUno li {
+				float: left;
+			}
+			#indiceUno li a {
+				padding: 14px 16px;
+			}
 	</style>
+	
 
-
-</head class="verdoso">
+</head>
 <body style="text-align: center;">
-	<div class="ambar">
-	<h1>INDICE.</h1>
-	<p><a href="tarea1-GaelTellezDiaz/index.html">indice interno (para las tareas anteriores)</a></p>
-	<p><a href="9html5.html">U2. Tarea7. Etiquetas de HTML5.</a></p>
-	<p><a href="tarea8.html">U2. Tarea 8. Etiqueta oninput.</a></p>
-	<p><a href="U2T10.html">U2. Tarea 10. Aplicando CSS con la etiqueta.</a></p>
-
-		
+	<header>
+		<ul id="indiceUno">
+			<li><a href="tarea1-GaelTellezDiaz/index.html">indice interno (para las tareas anteriores)</a></li>
+			<li><a href="9html5.html">U2. Tarea7. Etiquetas de HTML5.</a></li>
+			<li><a href="tarea8.html">U2. Tarea 8. Etiqueta oninput.</a></li>
+			<li><a href="U2T10.html">U2. Tarea 10. Aplicando CSS con la etiqueta.</a></li>
+		</ul>
+        </header>
+        <br>
+        <br>
+        	<h1>INDICE.</h1>
+        <div>
+		<ul id="indiceDos">
+			<li><a href="tarea1-GaelTellezDiaz/index.html">indice interno (para las tareas anteriores)</a></li>
+			<li><a href="9html5.html">U2. Tarea7. Etiquetas de HTML5.</a></li>
+			<li><a href="tarea8.html">U2. Tarea 8. Etiqueta oninput.</a></li>
+			<li><a href="U2T10.html">U2. Tarea 10. Aplicando CSS con la etiqueta.</a></li>
+		</ul>
 	</div>
 </body>
 </html>
