@@ -17,11 +17,11 @@
 		#tablaA{
 			backround-color:blue;
 		}
-		#tablaB{backround-color:coral;}
-		#tablaC{backround-color:purple;}
-		#tablaD{backround-color:yellow;}
-		#tablaE{backround-color:magenta;}
-		#tablaF{backround-color:cyan;}
+		.tablaB{backround-color:coral;}
+		.tablaC{backround-color:purple;}
+		.tablaD{backround-color:yellow;}
+		.tablaE{backround-color:magenta;}
+		.tablaF{backround-color:cyan;}
 	</style>
 </head>
 
@@ -40,95 +40,95 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table id="tablaA" border="2">
+	<table border="2">
 		<caption><b>tabla con cabeceras</b></caption>
-		<tr> 
+		<tr class="tablaA"> 
 			<td>fila1-columna1</td>
 			<td>fila1-columna2</td>
 			<td>fila1-columna3</td>
 		</tr>
-		<tr> 
+		<tr class="tablaA"> 
 			<td>fila1-celda1</td>
 			<td>fila1-celda2</td>
 			<td>fila1-celda3</td>
 		</tr>
 	</table>
 	<p><br/></p>
-	<table id="tablaB" border="1">
+	<table  border="1">
 		<caption><b>tabla con celdas unidas</b></caption>
-		<tr> 
+		<tr class="tablaB"> 
 			<td colspan="3"; align="center">celda sobre 3 columnas</td>
-		<tr>
+		<tr class="tablaB">
 			<td>fila1-celda1</td>
 			<td>fila1-celda2</td>
 			<td>fila1-celda3</td>
 		</tr>
-		<tr> 
+		<tr class="tablaB"> 
 			<td>fila2-celda1</td>
 			<td>fila2-celda2</td>
 			<td>fila2-celda3</td>
 		</tr>
 	</table>
 	<p><br/></p>
-	<table id="tablaC" border="1">
+	<table border="1">
 		<caption><b>tabla con filas unidas</b></caption>
-		<tr> 
+		<tr class="tablaC">
 			<td rowspan="2">texto sobre dos filas</td>
 			<td>fila1-celda2</td>
 			<td>fila1-celda3</td>
 		</tr>
-		<tr> 
+		<tr class="tablaC"> 
 			<td>fila1-celda2</td>
 			<td>fila1-celda3</td>
 		</tr>
 	</table>
 	<p><br/></p>
-	<table id="tablaD" border="5"; cellspacing="20">
+	<table border="5"; cellspacing="20">
 		<caption><b>tabla con separacion entre celdas</b></caption>
-		<tr> 
+		<tr class="tablaD"> 
 		<td>fila1-celda1</td>
 		<td>fila1-celda2</td>
 		<td>fila1-celda3</td>
 		</tr>
-		<tr> 
+		<tr class="tablaD"> 
 		<td>fila2-celda1</td>
 		<td>fila2-celda2</td>
 		<td>fila2-celda3</td>
 		</tr>
 	</table>
 	<p><br/></p>
-	<table id="tablaE" border="1"; cellpadding="10">
+	<table border="1"; cellpadding="10">
 		<caption><b>tabla con separacion entre borde y contenido de la celda</b></caption>
-		<tr> 
+		<tr class="tablaE"> 
 			<td>fila1-celda1</td>
 			<td>fila1-celda2</td>
 			<td>fila1-celda3</td>
 		</tr>
-		<tr> 
+		<tr class="tablaE"> 
 			<td>fila2-celda1</td>
 			<td>fila2-celda2</td>
 			<td>fila2-celda3</td>
 		</tr>
 	</table>
 	<p><br/></p>
-	<table id="tablaF" border="2">
+	<table border="2">
 		<caption><b>tabla con cabecera, cuerpo y pie</b></caption>
 		<thead>
-		<tr> 
+		<tr class="tablaF"> 
 			<th>cabecera1</th>
 			<th>cabecera2</th>
 			<th>cabecera3</th>
 		</tr>
 		</thead>
 		<tbody>
-		<tr>
+		<tr class="tablaF">
 			<td>fila1-celda1</td>
 			<td>fila1-celda2</td>
 			<td>fila1-celda3</td>
 		</tr>
 		</tbody>
 		<tfoot>
-		<tr>
+		<tr class="tablaF">
 			<td>pie1</td>
 			<td>pie2</td>
 			<td>pie3</td>
