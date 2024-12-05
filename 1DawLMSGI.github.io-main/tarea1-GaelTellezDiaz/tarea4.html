@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title style="font-family:Calibri;">Curriculo</title>
+		<style>
+	h1 {font-family:Calibri;}
+	</style>
+
+</head>
+<body style="text-align: center;">
+	<h1>Curriculo.</h1>
+	<form action="mailto:micorreo@este.es" method="post" enctype="text/plain">
+	<table border="0" ; align = "center">
+	<tr>
+	<td style="text-align: left;">
+	<h1>Datos Personales.</h1>
+	</td>
+	<td style="text-align: right;">
+	<h1>Datos Academicos.</h1>
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td style="text-align: left;">
+	<p><label for="nombre">nombre completo</label></p>
+		<p><input type="text" id="nombre" name="nombre" size="30" maxlength="30"/></p>
+	</td>
+	<td style="text-align: right;">
+	<p><label for="estudios">¿Qué estudias?</label></p>
+		<select id="estudios" name="estudios">
+		<option>primaria</option>
+		<option>secundaria</option>
+		<option>FP</option>
+		<option>bachillerato</option>
+		<option>universidad</option>
+		</select>
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td style="text-align: left;">
+	<p>sexo</p> 
+		<p>
+		<input type="radio" id="masculino" name="sexo" value="masculino">
+		<label for="linux">masculino</label>
+		<input type="radio" id="femenino" name="sexo" value="femenino">
+		<label for="windows">femenino</label>
+		</p>
+	</td>
+	<td>
+	
+	</td style="text-align: right;">
+	</tr>
+	
+	
+	<tr>
+	<td style="text-align: left;">
+	<h1>Experiencia Profesional.</h1>
+	</td>
+	<td style="text-align: right;">
+	<p><label for="centro">nombre del centro</label></p>
+	<p><input type="text" id="centro" name="centro" size="30" maxlength="30"/></p>
+
+	</td>
+	</tr>
+
+	
+	<tr>
+	<td style="text-align: left;">
+	<p><label for="EP">Describa su experiencia profesional.</label></p>
+		<p>
+		<textarea id="EP" name="EP" rows="3" cols="40"></textarea>
+		</p>
+	</td>
+	<td style="text-align: right;">
+	<h1>Idiomas.</h1>
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td style="text-align: left;">
+		<h1>Aptitudes Personales.</h1>
+
+	</td>
+	<td rowspan="2" style="text-align: right;">
+	
+	
+	<table align = "right">
+	<tr>
+	<td><p>idioma</p></td>
+	<td><p>habado</p></td>
+	<td><p>escrito</p></td>
+	</tr>
+
+	<tr>
+	<td><p>Ingles</p></td>
+	<td>
+	<select id="idiomaHablado" name="idiomaHablado">
+		<option>nulo</option>
+		<option>bajo</option>
+		<option>medio</option>
+		<option>alto</option>
+			</select>
+	<tr>
+	</td>
+	<td>
+	<select id="idiomaEscrito" name="idiomaEscrito">
+		<option>nulo</option>
+		<option>bajo</option>
+		<option>medio</option>
+		<option>alto</option>
+			</select>
+	</td>
+	</tr>
+	
+	<tr>
+	<td><p>Frances</p></td>
+	<td>
+	<select id="idiomaHablado" name="idiomaHablado">
+		<option>nulo</option>
+		<option>bajo</option>
+		<option>medio</option>
+		<option>alto</option>
+			</select>
+	</select>
+	</td>
+	<td>
+	<select id="idiomaEscrito" name="idiomaEscrito">
+		<option>nulo</option>
+		<option>bajo</option>
+		<option>medio</option>
+		<option>alto</option>
+			</select>
+	</td>
+	</tr>	
+	
+	<tr>
+	<td><p>(especifique)</p><p><input type="text" id="idiomaExtra" name="idiomas" size="8" maxlength="60"/></p></td>
+	<td>
+	<select id="idiomaHablado" name="idiomaHablado">
+		<option>nulo</option>
+		<option>bajo</option>
+		<option>medio</option>
+		<option>alto</option>
+			</select>
+	</select>
+	</td>
+	<td>
+	<select id="idiomaEscrito" name="idiomaEscrito">
+		<option>nulo</option>
+		<option>bajo</option>
+		<option>medio</option>
+		<option>alto</option>
+		</select>
+	</td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+	
+	<tr>
+	<td style="text-align: left;">
+	<p><label for="AP">Describa sus aptitudes personales.</label></p>
+		<p>
+		<textarea id="AP" name="AP" rows="3" cols="40"></textarea>
+		</p>
+	</td>
+	<td style="text-align: right;">
+	
+	</td>
+	</tr>
+	</table>
+	</form>
+</body>
+</html>
