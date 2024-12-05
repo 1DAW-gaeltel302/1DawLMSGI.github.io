@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>tablas</title>
+	<style>
+		body{
+			background-color:gold;
+		}
+		#filaA{
+			background-color:red;
+			
+		}
+		#filaB{
+			background-color:green;
+		}
+		#tablaA{
+			background-color:blue;
+		}
+		.tablaB{background-color:coral;}
+		.tablaC{background-color:purple;}
+		.tablaD{background-color:yellow;}
+		.tablaE{background-color:magenta;}
+		.tablaF{background-color:cyan;}
+	</style>
+</head>
+
+<body>
+	<table border="1" ; align = "center">
+		<caption><b>tabla simple</b></caption>
+		<tr id="filaA"> 
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+		<tr id="filaB"> 
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+	</table>
+	<p><br/></p>
+	<table border="2">
+		<caption><b>tabla con cabeceras</b></caption>
+		<tr class="tablaA"> 
+			<td>fila1-columna1</td>
+			<td>fila1-columna2</td>
+			<td>fila1-columna3</td>
+		</tr>
+		<tr class="tablaA"> 
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+	</table>
+	<p><br/></p>
+	<table  border="1">
+		<caption><b>tabla con celdas unidas</b></caption>
+		<tr class="tablaB"> 
+			<td colspan="3"; align="center">celda sobre 3 columnas</td>
+		<tr class="tablaB">
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+		<tr class="tablaB"> 
+			<td>fila2-celda1</td>
+			<td>fila2-celda2</td>
+			<td>fila2-celda3</td>
+		</tr>
+	</table>
+	<p><br/></p>
+	<table border="1">
+		<caption><b>tabla con filas unidas</b></caption>
+		<tr class="tablaC">
+			<td rowspan="2">texto sobre dos filas</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+		<tr class="tablaC"> 
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+	</table>
+	<p><br/></p>
+	<table border="5"; cellspacing="20">
+		<caption><b>tabla con separacion entre celdas</b></caption>
+		<tr class="tablaD"> 
+		<td>fila1-celda1</td>
+		<td>fila1-celda2</td>
+		<td>fila1-celda3</td>
+		</tr>
+		<tr class="tablaD"> 
+		<td>fila2-celda1</td>
+		<td>fila2-celda2</td>
+		<td>fila2-celda3</td>
+		</tr>
+	</table>
+	<p><br/></p>
+	<table border="1"; cellpadding="10">
+		<caption><b>tabla con separacion entre borde y contenido de la celda</b></caption>
+		<tr class="tablaE"> 
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+		<tr class="tablaE"> 
+			<td>fila2-celda1</td>
+			<td>fila2-celda2</td>
+			<td>fila2-celda3</td>
+		</tr>
+	</table>
+	<p><br/></p>
+	<table border="2">
+		<caption><b>tabla con cabecera, cuerpo y pie</b></caption>
+		<thead>
+		<tr class="tablaF"> 
+			<th>cabecera1</th>
+			<th>cabecera2</th>
+			<th>cabecera3</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="tablaF">
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+		</tbody>
+		<tfoot>
+		<tr class="tablaF">
+			<td>pie1</td>
+			<td>pie2</td>
+			<td>pie3</td>
+		</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
