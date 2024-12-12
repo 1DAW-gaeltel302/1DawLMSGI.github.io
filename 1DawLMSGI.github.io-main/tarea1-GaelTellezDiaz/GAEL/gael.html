@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+            #indice li{
+            	display: inline;
+				list-style-type: none;
+                padding: 10px
+				text-align: center;
+
+            }
+
+			#indice li a {
+            	border-bottom: none;
+				width: 150;
+            	margin: 0;
+				padding: 0;
+				border: 1px solid #555;
+            	display: block;
+                text-align: center;
+           		text-decoration: none;
+                background-color: lightyellow;
+			
+			}
+			#indice li a:last-child {
+               	border-bottom: 1px solid #555;
+			}
+            #tituro{
+				font-size: 300%;
+				background-image: linear-gradient(to right, blue, cyan, gray);
+            }
+            #testo{
+            	background-color: gray;
+                text-justify: inter-word;
+            }
+            #testo p{
+            	font-family: Lucida Bright,Georgia,serif; 
+            }
+            #testo a{
+            	color:blue;
+            }
+            #testo a:visited{
+            	color:green;
+            }
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div><ul id="indice">
+  			<li><a href="monumentos.html">MONUMENTOS.</a></li>
+			<li><a href="cuatro_cero_cuatro.html">INFO UTIL.</a></li>
+			<li><a href="cuatro_cero_cuatro.html">QUÉ HACER.</a></li>
+			<li><a href="cuatro_cero_cuatro.html">DÓNDE COMER</a></li>
+			<li><a href="cuatro_cero_cuatro.html">DE COMPRAS</a></li>
+  </ul></div>
+  <div>
+  <div id="tituro"><h1>Turismo en Pontevedra.</h1></div>
+  <p></p>
+  <div id="testo">
+  <p><a href="https://es.wikipedia.org/wiki/Pontevedra#Historia">Historia</a></p>
+  <p>Sobre el nacimiento de la ciudad de Pontevedra existe una leyenda de origen renacentista que dice que el responsable de la fundación de la villa fue Teucro, uno de los héroes de la guerra de Troya. La leyenda dice que llegó a estas tierras tras ser rechazado por su padre Telamón y fundó un asentamiento con el nombre de Helenes. Otra versión de la historia afirma que llegó al futuro emplazamiento de Pontevedra guiado por una sirena, cuyo nombre era Leucoiña.</p>
+  </div></div>
+</div>
+
+</body>
+</html>

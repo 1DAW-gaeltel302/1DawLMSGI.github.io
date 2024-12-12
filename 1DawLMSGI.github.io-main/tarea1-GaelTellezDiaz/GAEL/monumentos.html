@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	#fomulario {
+    	height: 30px;
+        width: 30px;
+        transition: width 3s, height 3s;
+    }
+    	#fomulario#hover {
+    	height: 200px;
+        width: 200px;
+        transition: width 3s, height 3s;
+    }
+    img{
+    height: 150px;
+    width: 150px;
+    }
+    .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+    margin: auto;
+}
+
+.flex-container > div {
+  text-align: center;
+}
+</style>
+
+</head>
+	<body style="text-align: center;">
+    <div class="flex-container">
+    <div>
+    <table>
+    <tr>
+    <td>
+    <a href="https://es.wikipedia.org/wiki/Fuente_de_la_Herrer%C3%ADa" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Pontevedra_-_Jardines_de_Casto_Sampedro_2.jpg" alt="Fuente De La Herrería" width="370" height="370"/></a>
+    <p>Fuente De La Herrería</p>
+    </td>
+        <td>
+    	<a href="https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Santa_Mar%C3%ADa_la_Mayor_(Pontevedra)" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Main_facade_of_the_Bas%C3%ADlica_de_Santa_Mar%C3%ADa_a_Maior_de_Pontevedra.jpg/420px-Main_facade_of_the_Bas%C3%ADlica_de_Santa_Mar%C3%ADa_a_Maior_de_Pontevedra.jpg" alt="Basílica de Santa María la Mayor" width="370" height="370"/></a>
+    <p>Basílica de Santa María la Mayor</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <a href="https://es.wikipedia.org/wiki/Monumento_a_la_Tertulia" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Statues%2C_Saint_Joseph_Square%2C_Pontevedra%2C_Galicia.jpg/480px-Statues%2C_Saint_Joseph_Square%2C_Pontevedra%2C_Galicia.jpg" alt="Monumento a la Tertulia" width="370" height="370"/></a>
+    <p>Monumento a la Tertulia</p>
+    </td>
+    <td>
+    <a href="https://es.wikipedia.org/wiki/R%C3%ADo_Deza" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Puente_sobre_el_r%C3%ADo_Deza%2C_Carboeiro.jpg/480px-Puente_sobre_el_r%C3%ADo_Deza%2C_Carboeiro.jpg" alt="Río Deza" width="370" height="370"/></a>
+    <p>Río Deza</p>
+    </td>
+    </tr>
+    </table>
+    </div>
+    <div>
+    <form id="fomulario">
+    <h2>Cual es tu monumento favorito?</h2>
+    <table>
+    <tr>
+    <td>
+    <input type="radio" id="fuente" name="mon_fav" value="HTML"><br>
+  	<label for="fuente">Fuente De La Herrería</label>
+    </td>
+    <td>
+    <input type="radio" id="basilica" name="mon_fav" value="HTML"><br>
+  	<label for="basilica">Basílica de Santa María la Mayor</label>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <input type="radio" id="tertulia" name="mon_fav" value="HTML"><br>
+  	<label for="tertulia">Monumento a la Tertulia</label>
+    </td>
+    <td>
+    <input type="radio" id="rio" name="mon_fav" value="HTML"><br>
+  	<label for="rio">Río Deza</label>
+    </td>
+    </tr>
+    <tr>
+    <td colspan="2">
+  	<input type="text" id="sugerencias" name="sugerencias" value=""><br>
+    <label for="sugerencias">Sugerencias.</label><br>
+
+    </td>
+    </tr>
+    <tr>
+    <td>
+      <input type="submit" value="envio de datos">
+    </td>
+    <td>
+	<input type="reset" value="Borrado de datos.">
+    </td>
+    </tr>
+    </table>
+    </form>
+    </div>
+    </div>
+    
+    <div class="flex-container">
+	<div style="margin: auto;"><iframe width="280" height="157" src="https://www.youtube.com/embed/7MkzADeTqlY?si=vnKjmdAEk2JNOCay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div style="margin: auto;"><iframe width="280" height="157" src="https://www.youtube.com/embed/WKODSmfuRxs?si=djo0qzjY7mbns1z3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    </body>
+</html>
